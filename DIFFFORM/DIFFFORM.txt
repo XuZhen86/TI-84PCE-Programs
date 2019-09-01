@@ -1,0 +1,79 @@
+Lbl 0
+ClrHome
+Menu("Differentiation formula","General rules",1,"Algebraic functions",2,"Trigonometric functions",3,"Chain rule",4,"Natural logarithm",5,"EXIT",6)
+
+Lbl 1
+Disp "cu=cu'"
+Disp "u+v=u'+v'"
+Disp "uv=u'v+uv'"
+Disp "u/v=(u'v-uv')/v²"
+Pause
+Goto 0
+
+Lbl 2
+Disp "c=0"
+Disp "x=1"
+Disp "u^n=nu^(n-1)u'
+Disp "x^n=nx^(n-1)"
+Disp "u/|u|=u(u')/|u|"
+Pause
+Goto 0
+
+Lbl 3
+Menu("Trigonometric functions","sin",31,"sin",32,"sinh",33,"sinh",34)
+
+Lbl 31
+Disp "sin u=(cos u)u'"
+Disp "cos u=-(sin u)u'"
+Disp "tan u=(sec² u)u'"
+Disp "csc u=-(csc u*cot u)u'"
+Disp "sec u=(sec u*tan u)u'"
+Disp "cot u=-(csc² u)u'"
+Pause
+Goto 0
+
+Lbl 32
+Disp "sin u=u'/√(1-u²)"
+Disp "cos u=-u'/√(1-u²)"
+Disp "tan u=u'/(1+u²)"
+Disp "csc u=-u'/(|u|√(u²-1))"
+Disp "sec u=u'/(|u|√(u²-1))"
+Disp "cot u=-u'/(1+u²)"
+Pause
+Goto 0
+
+Lbl 33
+Disp "sinh u=(cosh u)u'"
+Disp "cosh u=(sinh u)u'"
+Disp "tanh u=(sech² u)u'"
+Disp "csch u=-(csch u*coth u)u'"
+Disp "sech u=-(sech u*tanh u)u'"
+Disp "coth u=-(csch² u)u'"
+Pause
+Goto 0
+
+Lbl 34
+Disp "sinh u=u'/√(u²+1)"
+Disp "cosh u=u'/√(u²-1)"
+Disp "tanh u=u'/(1-u²)"
+Disp "csch u=-u'/(|u|√(1+u²))"
+Disp "sech u=-u'/(u√(1-u²))"
+Disp "coth u=u'/(1-u²)"
+Pause
+Goto 0
+
+Lbl 4
+Disp "F(u)=F'(u)u'"
+Disp "u^n=nu^(n-1)u'"
+Pause
+Goto 0
+
+Lbl 5
+Disp "ln(u)=u'/u"
+Disp "log(u,a)=u'/(ln(a)u)"
+Disp "e^u=(e^u)u'"
+Disp "a^u=ln(a)(a^u)u'"
+Pause
+Goto 0
+
+Lbl 6

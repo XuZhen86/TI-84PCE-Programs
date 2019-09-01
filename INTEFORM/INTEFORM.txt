@@ -1,0 +1,46 @@
+Lbl 0
+Menu("Integration formula","General rules",1,"Algebraic functions",2,"Trig functions",3,"Trig functions 2",4,"Others",5,"EXIT",6)
+
+Lbl 1
+Disp "∫kF=k∫F"
+Disp "∫(F+G)=∫F+∫G"
+Pause
+Goto 0
+
+Lbl 2
+Disp "∫0=C"
+Disp "∫k=kx+C"
+Disp "∫x^n=x^(n+1)/(n+1)+C,n≠1"
+Disp "∫1/u=ln|u|+C
+Disp "∫e^u=e^u+C"
+Disp "∫a^u=a^u/ln(a)+C
+Pause
+Goto 0
+
+Lbl 3
+Disp "∫sin=-cos+C"
+Disp "∫cos=sin+C"
+Disp "∫tan=ln|sec|+C=-ln|cos|+C"
+Disp "∫csc=-ln|csc+cot|+C"
+Disp "∫sec=ln|sec+tan|+C"
+Disp "∫cot=ln|sin|+C"
+Pause
+Goto 0
+
+Lbl 4
+Disp "∫sec²=tan+C"
+Disp "∫sec*tan=sec+C"
+Disp "∫csc²=-cot+C"
+Disp "∫csc*cot=-csc+C"
+Pause
+Goto 0
+
+Lbl 5
+Disp "∫1/(a²+u²)=tan(u/a)/a+C"
+Disp "∫1/√(a²-u²)=sin(u/a)+C"
+Disp "∫1/(u√(u²-a²))"
+Disp "=sec(|u|/a)/a+C"
+Pause
+Goto 0
+
+Lbl 6
